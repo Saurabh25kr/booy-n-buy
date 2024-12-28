@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Order Tracking</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+            color: #333;
+        }
+        .order-info {
+            margin-bottom: 20px;
+        }
+        .order-info p {
+            margin: 5px 0;
+        }
+        .status {
+            margin-bottom: 20px;
+        }
+        .status span {
+            font-weight: bold;
+            color: #007BFF;
+        }
+        .progress {
+            background: #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-bottom: 10px;
+        }
+        .progress-bar {
+            width: 70%;
+            background: #007BFF;
+            height: 20px;
+            text-align: center;
+            color: white;
+            line-height: 20px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Order Tracking</h1>
+        </div>
+        <div class="order-info">
+            <h2>Book Details</h2>
+            <p><strong>Title:</strong> <span>The Great Gatsby</span></p>
+            <p><strong>Author:</strong> <span>F. Scott Fitzgerald</span></p>
+            <p><strong>Order Number:</strong> <span>#12345</span></p>
+        </div>
+        <div class="status">
+            <h2>Order Status</h2>
+            <div class="progress">
+                <div class="progress-bar">70% Shipped</div>
+            </div>
+            <p><strong>Current Status:</strong> <span>Shipped</span></p>
+            <p><strong>Expected Delivery:</strong> <span>December 5, 2024</span></p>
+        </div>
+        <div class="footer">
+            <p>&copy; 2024 Online Book N buy</p>
+        </div>
+    </div>
+</body>
+</html>
